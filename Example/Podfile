@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'JDCNCameraTool_Example' do
+  pod 'JDCNCameraTool', :path => '../'
+
+  target 'JDCNCameraTool_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end
