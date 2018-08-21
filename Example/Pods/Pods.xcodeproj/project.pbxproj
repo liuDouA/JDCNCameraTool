@@ -8,7 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		051A816D6DD0CAE13496DDCFE0829167 /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = 85E250EF19C5B5671AEC10BEB508D087 /* UIImage+Diff.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		090D98F5D0B7FCAC98768A3FC0DBEECF /* Test.h in Headers */ = {isa = PBXBuildFile; fileRef = 9374F5D8D8AC88C5FBA4F126F78EC0B5 /* Test.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		094973D2D2F1E3B2E772F93C8147C6B9 /* UIApplication+StrictKeyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EECE81A9AEC1ED1057A9C3C88DBCEBE /* UIApplication+StrictKeyWindow.m */; };
+		0F38AFB381E98F49B73DC96496CCEE91 /* JDCNCameraTool-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 347738EBD42C2A27C4881D106DA4495C /* JDCNCameraTool-dummy.m */; };
 		18EA4E0D8B74F2B2BBF8F39B49F49BF9 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7843C520ED7D11392D872D57034A1BC /* XCTest.framework */; };
 		1AB7934C16CE49DE196FFC7BE7278287 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97545C39C4A5EE2631DD9FFECE76A40 /* SwiftSupport.swift */; };
 		2F485B69F51E4F723A38410F31F08550 /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = 1374B79237CAC07693E99442FBED1F15 /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -19,15 +21,14 @@
 		5BC12F69E33ABA27B9E0B78128CE336D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D77B07CA7D221E3EC46B93C00BF37CDE /* QuartzCore.framework */; };
 		6497AF2FDE07078FBFC87F5E4F4B47B6 /* Pods-JDCNCameraTool_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C102B8E476530B0A3F86C9FB85C64094 /* Pods-JDCNCameraTool_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		69DA8B003216466C60F029CBD79897F1 /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B5E22F9517F21D3A0251F88FCAB281E /* UIImage+Compare.m */; };
-		74672901BED18FF9943CD2BE05F74304 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1A94602875A48A997AD3F08A33E6EAA /* Foundation.framework */; };
 		756564ABAF2892FE7140C92A1CDDCF65 /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DBFBDCC891B770A2AC9EF0FB164B751 /* UIImage+Snapshot.m */; };
 		75AA7D04D17929A8C7E0F63882E210A1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1A94602875A48A997AD3F08A33E6EAA /* Foundation.framework */; };
-		860CD564EE0EE8E2F769AE3DB792B977 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 238A32D80300337D042D9DEC48B013D7 /* ReplaceMe.m */; };
-		8E4EA05011FFE65E904DBF877BAD1575 /* JDCNCameraTool-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 886EE3475AC07C71109D2CBAD236D136 /* JDCNCameraTool-dummy.m */; };
+		83496BBB570C06F1173ADAA5C559635A /* Test.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B333D227886E757BB098C7D2551ABCD /* Test.m */; };
+		92A773619C2BFEF9921ED396A1C43493 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1A94602875A48A997AD3F08A33E6EAA /* Foundation.framework */; };
 		9673CF780F48C8E4EC2A331717B1F67C /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = E37899BD4B349060AA147E2A3721D3A2 /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		99E89D77E4E0296DD8F313F799418432 /* JDCNCameraTool-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C23035E7AEFB3BD51D5C74A9DA3E59B /* JDCNCameraTool-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9D0EE2DE9CC8EA6E92A4150F43109D5A /* Pods-JDCNCameraTool_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C1076483A2D0BE48018D56BB6CC0E428 /* Pods-JDCNCameraTool_Example-dummy.m */; };
 		A4F69F3477A935285620AC3031C5C848 /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 052258A488A96C35531FAC73C4F42924 /* FBSnapshotTestController.m */; };
+		B39CC3E3D2D3940983D3DEB5D18A5473 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A8A2B4B6A082F0EB54AE25DFAD617B6 /* ReplaceMe.m */; };
 		B758FB09FE2C06C1B8E36A71A9D76D41 /* FBSnapshotTestCase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A11D5B54955E3381F067364E427B571A /* FBSnapshotTestCase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B88195103F26136C393D41228BE45217 /* Pods-JDCNCameraTool_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C18D33167DC32F6AD3054939A282063C /* Pods-JDCNCameraTool_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BC952FC04FC963C1294DCD619C9B6B3B /* UIApplication+StrictKeyWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = B9109B8B333B5A1A3E92EFC09EDC10AC /* UIApplication+StrictKeyWindow.h */; settings = {ATTRIBUTES = (Project, ); }; };
@@ -38,6 +39,7 @@
 		DAD9A0E0F40D3984B78A22F8D3CDAB45 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1A94602875A48A997AD3F08A33E6EAA /* Foundation.framework */; };
 		DB7A106243AC974FC7EBEB00B506C786 /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = 58A2557E7CE20AACCD1B28B1CD1F920D /* FBSnapshotTestCasePlatform.m */; };
 		DBE91DFEE101DBA3FF3C0BE17577BA3B /* Pods-JDCNCameraTool_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BB09CCEB881E45F303A6D3DE41807AA /* Pods-JDCNCameraTool_Tests-dummy.m */; };
+		E0C18666ABB55ED5B7F31B9CD54B428E /* JDCNCameraTool-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 56BC75A1831CB77F48D57F2ED4FFD906 /* JDCNCameraTool-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,7 +47,7 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 15019702665637695D11712EABFF8BAB;
+			remoteGlobalIDString = F7595B93AB09426983434D39692632D7;
 			remoteInfo = JDCNCameraTool;
 		};
 		D1B4F2559EAAA3DBF20127165160842D /* PBXContainerItemProxy */ = {
@@ -69,44 +71,44 @@
 		0B161931541BFE46DFEA2092EDDDA815 /* UIImage+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Snapshot.h"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.h"; sourceTree = "<group>"; };
 		1374B79237CAC07693E99442FBED1F15 /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
 		1A94700A16E94015E16A377C932E8FE4 /* Pods-JDCNCameraTool_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-JDCNCameraTool_Example.modulemap"; sourceTree = "<group>"; };
-		238A32D80300337D042D9DEC48B013D7 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = JDCNCameraTool/Classes/ReplaceMe.m; sourceTree = "<group>"; };
 		23AB1B3AB19C44DD154BA92383A49602 /* JDCNCameraTool.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JDCNCameraTool.framework; path = JDCNCameraTool.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2ECA8268BC0A4A8863DC9122C85B0267 /* Pods-JDCNCameraTool_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JDCNCameraTool_Example.release.xcconfig"; sourceTree = "<group>"; };
 		2EECE81A9AEC1ED1057A9C3C88DBCEBE /* UIApplication+StrictKeyWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+StrictKeyWindow.m"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.m"; sourceTree = "<group>"; };
+		347738EBD42C2A27C4881D106DA4495C /* JDCNCameraTool-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JDCNCameraTool-dummy.m"; sourceTree = "<group>"; };
 		39577E2B806B8B2D019998DE60728F63 /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
 		3B5E22F9517F21D3A0251F88FCAB281E /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.m"; sourceTree = "<group>"; };
 		3C438F22FE50A59FD801604B820F2A32 /* Pods-JDCNCameraTool_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JDCNCameraTool_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		3C6CE3465B263D429153529372F900FE /* Pods-JDCNCameraTool_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JDCNCameraTool_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		3D3067AC62D71D924FE3020BD507DBD6 /* Pods-JDCNCameraTool_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JDCNCameraTool_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		3DBFBDCC891B770A2AC9EF0FB164B751 /* UIImage+Snapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Snapshot.m"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.m"; sourceTree = "<group>"; };
-		407CD11E07D9DB93ACEB9E41EEDB2041 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		4206DFFAEFA74516E84EDE45D1314954 /* JDCNCameraTool.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JDCNCameraTool.xcconfig; sourceTree = "<group>"; };
 		432938111B6FF0189EFFEDF2F845B308 /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
 		4792533D7EE0F440EE722DA4999E845C /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
-		4C23035E7AEFB3BD51D5C74A9DA3E59B /* JDCNCameraTool-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JDCNCameraTool-umbrella.h"; sourceTree = "<group>"; };
+		4A8A2B4B6A082F0EB54AE25DFAD617B6 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = JDCNCameraTool/Classes/ReplaceMe.m; sourceTree = "<group>"; };
 		4C9050CA66953A2FF46F4AC8BABCBC39 /* Pods_JDCNCameraTool_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_JDCNCameraTool_Example.framework; path = "Pods-JDCNCameraTool_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F8CA3EFCD340F975C0284FD206B9468 /* Pods-JDCNCameraTool_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JDCNCameraTool_Tests-resources.sh"; sourceTree = "<group>"; };
 		512244D004F9C51EC141B2803E314E11 /* Pods-JDCNCameraTool_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JDCNCameraTool_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		524ECC4257CBE09BE341D2DA4AB07AD7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5680DB62A7F1DA53C312B7650FD36F65 /* Pods-JDCNCameraTool_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-JDCNCameraTool_Tests.modulemap"; sourceTree = "<group>"; };
+		56BC75A1831CB77F48D57F2ED4FFD906 /* JDCNCameraTool-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JDCNCameraTool-umbrella.h"; sourceTree = "<group>"; };
 		58A2557E7CE20AACCD1B28B1CD1F920D /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
 		61D2E3521548F1CC64AB7F512F2A7DE8 /* Pods-JDCNCameraTool_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JDCNCameraTool_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		66F7AD8242302F7A1D52FE517D12C6EB /* JDCNCameraTool.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = JDCNCameraTool.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		67E276593855381568F725E69496F29C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6987EB35A6517D90DCE762E2E3B511B1 /* JDCNCameraTool-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JDCNCameraTool-prefix.pch"; sourceTree = "<group>"; };
+		67F561BF2D2F28A0C8DB105C80B6AC51 /* JDCNCameraTool-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JDCNCameraTool-prefix.pch"; sourceTree = "<group>"; };
 		6AB9A9D2458FB5D5905D9747030657F0 /* Pods-JDCNCameraTool_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JDCNCameraTool_Example-resources.sh"; sourceTree = "<group>"; };
-		6D83E7B9A0783A29B1AE306C02C74B42 /* JDCNCameraTool.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JDCNCameraTool.modulemap; sourceTree = "<group>"; };
 		7B37D7C695D5C6C47A7C093595CD4F06 /* FBSnapshotTestCase.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.xcconfig; sourceTree = "<group>"; };
 		7E3DB4D092B985E76E227F7F313C6981 /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
 		85E250EF19C5B5671AEC10BEB508D087 /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.h"; sourceTree = "<group>"; };
-		87ADF48958D2C8D75FA4A673F64AA852 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		886EE3475AC07C71109D2CBAD236D136 /* JDCNCameraTool-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JDCNCameraTool-dummy.m"; sourceTree = "<group>"; };
+		8A5903235FEC8F49E3129CE7F9FC34FA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		8BB09CCEB881E45F303A6D3DE41807AA /* Pods-JDCNCameraTool_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JDCNCameraTool_Tests-dummy.m"; sourceTree = "<group>"; };
+		9374F5D8D8AC88C5FBA4F126F78EC0B5 /* Test.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Test.h; path = JDCNCameraTool/Classes/Test.h; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9B1A27126FDFA18C513B250E33518F80 /* Pods-JDCNCameraTool_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JDCNCameraTool_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		9B333D227886E757BB098C7D2551ABCD /* Test.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Test.m; path = JDCNCameraTool/Classes/Test.m; sourceTree = "<group>"; };
 		A11D5B54955E3381F067364E427B571A /* FBSnapshotTestCase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-umbrella.h"; sourceTree = "<group>"; };
 		A203069493A64AE1797415C9CB21DF9C /* Pods-JDCNCameraTool_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JDCNCameraTool_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		A7FB8152DC6245127B66985551964DC7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B1063658C6C7059E88D8FEB0926BC7FD /* JDCNCameraTool.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = JDCNCameraTool.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AF1E3D274C50BCD5F9AD92031F125257 /* JDCNCameraTool.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JDCNCameraTool.modulemap; sourceTree = "<group>"; };
 		B2AA387A0D861298521DB24AA49F592A /* Pods-JDCNCameraTool_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JDCNCameraTool_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		B9109B8B333B5A1A3E92EFC09EDC10AC /* UIApplication+StrictKeyWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+StrictKeyWindow.h"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.h"; sourceTree = "<group>"; };
 		B9CEF7D6C5E08AB80E58DABC75D882BC /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.m"; sourceTree = "<group>"; };
@@ -116,9 +118,11 @@
 		C1076483A2D0BE48018D56BB6CC0E428 /* Pods-JDCNCameraTool_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JDCNCameraTool_Example-dummy.m"; sourceTree = "<group>"; };
 		C18D33167DC32F6AD3054939A282063C /* Pods-JDCNCameraTool_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JDCNCameraTool_Example-umbrella.h"; sourceTree = "<group>"; };
 		C1A94602875A48A997AD3F08A33E6EAA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		C64889D50D82B0A995DE24EDE971457B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3DAA3DFFE525A3A010949DA1AFAC6F1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		D77B07CA7D221E3EC46B93C00BF37CDE /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		D85255AAFB01C456798869B541DFD2F4 /* JDCNCameraTool.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JDCNCameraTool.xcconfig; sourceTree = "<group>"; };
 		D97545C39C4A5EE2631DD9FFECE76A40 /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = FBSnapshotTestCase/SwiftSupport.swift; sourceTree = "<group>"; };
-		DC485BE5412A177B533975FA4A1296BE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E37899BD4B349060AA147E2A3721D3A2 /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
 		E7843C520ED7D11392D872D57034A1BC /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		EF519A026B10AC73ABBE6E658308B29D /* FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
@@ -139,14 +143,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		22AEA30A56CD2218A92C84CCA7B5B2F8 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				74672901BED18FF9943CD2BE05F74304 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		669F79CCF27A8F662E7759A5830F04C8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -163,9 +159,30 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		9CD743EC6281E83C5FFFB57E8C10DBF9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92A773619C2BFEF9921ED396A1C43493 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		07610AE3470EF17985B5582A128591FE /* JDCNCameraTool */ = {
+			isa = PBXGroup;
+			children = (
+				4A8A2B4B6A082F0EB54AE25DFAD617B6 /* ReplaceMe.m */,
+				9374F5D8D8AC88C5FBA4F126F78EC0B5 /* Test.h */,
+				9B333D227886E757BB098C7D2551ABCD /* Test.m */,
+				A0C98D5AA64896DCF22D01DED1429D71 /* Pod */,
+				ACD42418A64DC2D324A67E98D55C92C6 /* Support Files */,
+			);
+			name = JDCNCameraTool;
+			path = ../..;
+			sourceTree = "<group>";
+		};
 		14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -239,40 +256,24 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		4C7E39014857FC5F88CAEE369EB06A34 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				DC485BE5412A177B533975FA4A1296BE /* Info.plist */,
-				6D83E7B9A0783A29B1AE306C02C74B42 /* JDCNCameraTool.modulemap */,
-				4206DFFAEFA74516E84EDE45D1314954 /* JDCNCameraTool.xcconfig */,
-				886EE3475AC07C71109D2CBAD236D136 /* JDCNCameraTool-dummy.m */,
-				6987EB35A6517D90DCE762E2E3B511B1 /* JDCNCameraTool-prefix.pch */,
-				4C23035E7AEFB3BD51D5C74A9DA3E59B /* JDCNCameraTool-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/JDCNCameraTool";
-			sourceTree = "<group>";
-		};
-		5A59AA81E30381DF9991224C7EA4E722 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				B1063658C6C7059E88D8FEB0926BC7FD /* JDCNCameraTool.podspec */,
-				407CD11E07D9DB93ACEB9E41EEDB2041 /* LICENSE */,
-				87ADF48958D2C8D75FA4A673F64AA852 /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				D7B747412EE47CF6A821A56C6EF2325E /* Development Pods */,
+				81B5D755A6763349278126CBD45E390D /* Development Pods */,
 				14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */,
 				FBD2D672921284E66F309CA3462F84D6 /* Pods */,
 				320E40EF72C44922997F3DD5F942E7A5 /* Products */,
 				E568B4D53013D9CD7AE03C1D0C9BC64A /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		81B5D755A6763349278126CBD45E390D /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				07610AE3470EF17985B5582A128591FE /* JDCNCameraTool */,
+			);
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		99E46DD4AB2256791F111C718CB0EEF8 /* SwiftSupport */ = {
@@ -283,23 +284,28 @@
 			name = SwiftSupport;
 			sourceTree = "<group>";
 		};
-		A4C17C4B81DA1A3DCB45C3D685316EE3 /* JDCNCameraTool */ = {
+		A0C98D5AA64896DCF22D01DED1429D71 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				238A32D80300337D042D9DEC48B013D7 /* ReplaceMe.m */,
-				5A59AA81E30381DF9991224C7EA4E722 /* Pod */,
-				4C7E39014857FC5F88CAEE369EB06A34 /* Support Files */,
+				66F7AD8242302F7A1D52FE517D12C6EB /* JDCNCameraTool.podspec */,
+				8A5903235FEC8F49E3129CE7F9FC34FA /* LICENSE */,
+				D3DAA3DFFE525A3A010949DA1AFAC6F1 /* README.md */,
 			);
-			name = JDCNCameraTool;
-			path = ../..;
+			name = Pod;
 			sourceTree = "<group>";
 		};
-		D7B747412EE47CF6A821A56C6EF2325E /* Development Pods */ = {
+		ACD42418A64DC2D324A67E98D55C92C6 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				A4C17C4B81DA1A3DCB45C3D685316EE3 /* JDCNCameraTool */,
+				C64889D50D82B0A995DE24EDE971457B /* Info.plist */,
+				AF1E3D274C50BCD5F9AD92031F125257 /* JDCNCameraTool.modulemap */,
+				D85255AAFB01C456798869B541DFD2F4 /* JDCNCameraTool.xcconfig */,
+				347738EBD42C2A27C4881D106DA4495C /* JDCNCameraTool-dummy.m */,
+				67F561BF2D2F28A0C8DB105C80B6AC51 /* JDCNCameraTool-prefix.pch */,
+				56BC75A1831CB77F48D57F2ED4FFD906 /* JDCNCameraTool-umbrella.h */,
 			);
-			name = "Development Pods";
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/JDCNCameraTool";
 			sourceTree = "<group>";
 		};
 		E568B4D53013D9CD7AE03C1D0C9BC64A /* Targets Support Files */ = {
@@ -369,6 +375,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		640CB714E7A8BBBBDB4767652642888A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0C18666ABB55ED5B7F31B9CD54B428E /* JDCNCameraTool-umbrella.h in Headers */,
+				090D98F5D0B7FCAC98768A3FC0DBEECF /* Test.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		9A45CDBA76D2B4A55DFB5FCFFBA4A89A /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -392,34 +407,9 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E8D2A45BBB451C197B4144D8F9803F82 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				99E89D77E4E0296DD8F313F799418432 /* JDCNCameraTool-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		15019702665637695D11712EABFF8BAB /* JDCNCameraTool */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = A5242997CAB508542AD8F2462EDB7B7A /* Build configuration list for PBXNativeTarget "JDCNCameraTool" */;
-			buildPhases = (
-				5909D980EC4AD4A695A97D6ADE0C85F7 /* Sources */,
-				22AEA30A56CD2218A92C84CCA7B5B2F8 /* Frameworks */,
-				E8D2A45BBB451C197B4144D8F9803F82 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = JDCNCameraTool;
-			productName = JDCNCameraTool;
-			productReference = 23AB1B3AB19C44DD154BA92383A49602 /* JDCNCameraTool.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 		34CD2E3428AB802BACA62286FF5074B1 /* FBSnapshotTestCase */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = F28097D43AF5CD8DA838ABD52A053790 /* Build configuration list for PBXNativeTarget "FBSnapshotTestCase" */;
@@ -474,6 +464,23 @@
 			productReference = 4C9050CA66953A2FF46F4AC8BABCBC39 /* Pods_JDCNCameraTool_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		F7595B93AB09426983434D39692632D7 /* JDCNCameraTool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5F822886C2DDFCAC92ACC6817E7A7B7 /* Build configuration list for PBXNativeTarget "JDCNCameraTool" */;
+			buildPhases = (
+				85514773EEB1082C12A72FAEFF76FC06 /* Sources */,
+				9CD743EC6281E83C5FFFB57E8C10DBF9 /* Frameworks */,
+				640CB714E7A8BBBBDB4767652642888A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JDCNCameraTool;
+			productName = JDCNCameraTool;
+			productReference = 23AB1B3AB19C44DD154BA92383A49602 /* JDCNCameraTool.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -496,7 +503,7 @@
 			projectRoot = "";
 			targets = (
 				34CD2E3428AB802BACA62286FF5074B1 /* FBSnapshotTestCase */,
-				15019702665637695D11712EABFF8BAB /* JDCNCameraTool */,
+				F7595B93AB09426983434D39692632D7 /* JDCNCameraTool */,
 				71617A89808662A591EB3F4A525157D3 /* Pods-JDCNCameraTool_Example */,
 				4177425B113B92601EBB64116C480A86 /* Pods-JDCNCameraTool_Tests */,
 			);
@@ -520,12 +527,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5909D980EC4AD4A695A97D6ADE0C85F7 /* Sources */ = {
+		85514773EEB1082C12A72FAEFF76FC06 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8E4EA05011FFE65E904DBF877BAD1575 /* JDCNCameraTool-dummy.m in Sources */,
-				860CD564EE0EE8E2F769AE3DB792B977 /* ReplaceMe.m in Sources */,
+				0F38AFB381E98F49B73DC96496CCEE91 /* JDCNCameraTool-dummy.m in Sources */,
+				B39CC3E3D2D3940983D3DEB5D18A5473 /* ReplaceMe.m in Sources */,
+				83496BBB570C06F1173ADAA5C559635A /* Test.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -557,7 +565,7 @@
 		C473076BFB50EB32D6E87594A23A558A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = JDCNCameraTool;
-			target = 15019702665637695D11712EABFF8BAB /* JDCNCameraTool */;
+			target = F7595B93AB09426983434D39692632D7 /* JDCNCameraTool */;
 			targetProxy = B03A950777E653DFBF94D978193F2109 /* PBXContainerItemProxy */;
 		};
 		E2530B43858379A21C4F75D1578427CD /* PBXTargetDependency */ = {
@@ -569,6 +577,37 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		029F13FCB5EA659A42ABE215249F2919 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D85255AAFB01C456798869B541DFD2F4 /* JDCNCameraTool.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JDCNCameraTool/JDCNCameraTool-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JDCNCameraTool/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JDCNCameraTool/JDCNCameraTool.modulemap";
+				PRODUCT_MODULE_NAME = JDCNCameraTool;
+				PRODUCT_NAME = JDCNCameraTool;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		15E020483E17629BBEE6BE3DC7358CDC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 9B1A27126FDFA18C513B250E33518F80 /* Pods-JDCNCameraTool_Tests.debug.xcconfig */;
@@ -604,9 +643,9 @@
 			};
 			name = Debug;
 		};
-		69C7D3CEBE1761A0FDDD31124B92CE0D /* Debug */ = {
+		1AF572A97797AF4FADB9344A1E4F0D35 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4206DFFAEFA74516E84EDE45D1314954 /* JDCNCameraTool.xcconfig */;
+			baseConfigurationReference = D85255AAFB01C456798869B541DFD2F4 /* JDCNCameraTool.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -729,37 +768,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
-		};
-		97216D822F8D67EB838C45D71D078D9E /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4206DFFAEFA74516E84EDE45D1314954 /* JDCNCameraTool.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/JDCNCameraTool/JDCNCameraTool-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/JDCNCameraTool/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/JDCNCameraTool/JDCNCameraTool.modulemap";
-				PRODUCT_MODULE_NAME = JDCNCameraTool;
-				PRODUCT_NAME = JDCNCameraTool;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
 		};
 		A38749C15819B02B742737E489EE0EEB /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -972,15 +980,6 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A5242997CAB508542AD8F2462EDB7B7A /* Build configuration list for PBXNativeTarget "JDCNCameraTool" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				69C7D3CEBE1761A0FDDD31124B92CE0D /* Debug */,
-				97216D822F8D67EB838C45D71D078D9E /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		ED31F3776DFCB86B75871E094C71FCB9 /* Build configuration list for PBXNativeTarget "Pods-JDCNCameraTool_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -995,6 +994,15 @@
 			buildConfigurations = (
 				A38749C15819B02B742737E489EE0EEB /* Debug */,
 				AB74B6A60AA3078D80BB7D633DFBCA01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5F822886C2DDFCAC92ACC6817E7A7B7 /* Build configuration list for PBXNativeTarget "JDCNCameraTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AF572A97797AF4FADB9344A1E4F0D35 /* Debug */,
+				029F13FCB5EA659A42ABE215249F2919 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
