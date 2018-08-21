@@ -37,9 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		04900C33B27B9EA558A90190 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		04900C33B27B9EA558A90190 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		10167670B1A5CF35153BBF38 /* Pods-JDCNCameraTool_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JDCNCameraTool_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-JDCNCameraTool_Example/Pods-JDCNCameraTool_Example.release.xcconfig"; sourceTree = "<group>"; };
-		24AC8B4993108FDF7BB3F3D6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		24AC8B4993108FDF7BB3F3D6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		2E6458EA337D49F944591E5C /* Pods-JDCNCameraTool_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JDCNCameraTool_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JDCNCameraTool_Tests/Pods-JDCNCameraTool_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		5E1F9AB3E566BF03382FD937 /* Pods-JDCNCameraTool_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JDCNCameraTool_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-JDCNCameraTool_Tests/Pods-JDCNCameraTool_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* JDCNCameraTool_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JDCNCameraTool_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -66,7 +66,7 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7C104D659563D4F3513AB2CF /* Pods_JDCNCameraTool_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JDCNCameraTool_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		EC28BE4EC9CAC64D6BCEBC46 /* JDCNCameraTool.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = JDCNCameraTool.podspec; path = ../JDCNCameraTool.podspec; sourceTree = "<group>"; };
+		EC28BE4EC9CAC64D6BCEBC46 /* JDCNCameraTool.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = JDCNCameraTool.podspec; path = ../JDCNCameraTool.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */

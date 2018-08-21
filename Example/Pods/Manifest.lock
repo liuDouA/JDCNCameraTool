@@ -1,0 +1,27 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - JDCNCameraTool (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - JDCNCameraTool (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  JDCNCameraTool:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  JDCNCameraTool: 89cb7d662477cda71c572063db96517da55004af
+
+PODFILE CHECKSUM: a5d0eab39de0a76adec7858d0274ec53980b96d3
+
+COCOAPODS: 1.5.3

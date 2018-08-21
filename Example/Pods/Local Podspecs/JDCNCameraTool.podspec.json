@@ -1,0 +1,22 @@
+{
+  "name": "JDCNCameraTool",
+  "version": "0.1.0",
+  "summary": "A short description of JDCNCameraTool.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/liudouA/JDCNCameraTool",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "liudouA": "1171258080@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/liudouA/JDCNCameraTool.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "JDCNCameraTool/Classes/**/*"
+}

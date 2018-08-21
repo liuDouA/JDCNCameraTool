@@ -1,0 +1,6 @@
+framework module JDCNCameraTool {
+  umbrella header "JDCNCameraTool-umbrella.h"
+
+  export *
+  module * { export * }
+}
